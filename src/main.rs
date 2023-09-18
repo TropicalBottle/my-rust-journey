@@ -1,7 +1,9 @@
+use crate::exercises::math::fibonacci_sequence;
+#[allow(unused_imports)]
 use crate::exercises::unit_converter::temperature_converter;
 
 mod exercises;
 
 fn main() {
-    println!("{}", temperature_converter());
+    fibonacci_sequence();
 }
