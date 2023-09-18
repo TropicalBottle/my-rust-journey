@@ -12,10 +12,8 @@ What's Inside?
 
 ## Why Rust?
 
-Rust is a modern, statically-typed language known for its performance, safety, and concurrency support. My journey with Rust began with a curiosity to explore these features and understand how they can be leveraged in practical applications.
-Contributions and Feedback
+I wanted to discover a new language that was away from web devlopement. I got interested in trying Rust as I was hearing a lot of good from that language, and I could use it to do much differents things and I got in love with the basics I could read and the community
 
-I welcome contributions, suggestions, and feedback from the community. If you spot areas where I can improve or have suggestions for interesting exercises or projects, feel free to open an issue or submit a pull request.
 ## Getting Started
 
 If you're new to Rust or interested in exploring this repository, here are some resources to help you get started:
