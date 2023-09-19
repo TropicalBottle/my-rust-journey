@@ -1,5 +1,4 @@
-use std::collections::HashSet;
-
+#[allow(dead_code)]
 pub fn sing_christmas() {
     const DAYS_OF_CHRISTMAS: [&str; 12] = [
         "first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth",
