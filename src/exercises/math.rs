@@ -1,5 +1,5 @@
 use std::io;
-
+#[allow(dead_code)]
 pub fn fibonacci_sequence() {
     let mut asked_limit: String = String::new();
     println!("How many numbers into the Fibonacci Sequence do you want:");
