@@ -1,5 +1,20 @@
 use std::io;
 #[allow(dead_code)]
+
+pub enum Shape {
+    Rectangle {width: u32, height: u32},
+    Circle {radius: u32},
+}
+
+impl Shape {
+   pub fn calculate_surface(&self) -> u32 {
+        match self {
+            Shape::Circle {radius} => (3.14 * (radius * radius) as f64) as u32,
+            Shape::Rectangle {width, height} => width * height
+        }
+    } 
+}
+
 pub fn fibonacci_sequence() {
     let mut asked_limit: String = String::new();
     println!("How many numbers into the Fibonacci Sequence do you want:");
